@@ -6,8 +6,8 @@ public class CountSubString {
         System.out.println("String: ");
         String s = scanner.nextLine();
         System.out.println("Find Substring: ");
-        String find = scanner.next();
-//        int str = s.indexOf(0);
+        String find = scanner.nextLine();
+//        int str = s.indexOf();
         int count = (s.split(find + "", -1).length) - 1;
         System.out.println(count);
     }
