@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class FloydTriangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Rows: ");
+        System.out.println(" Number of Rows: ");
         int n = scanner.nextInt();
         int number=1;
         for (int i = 1; i <= n; i++) {

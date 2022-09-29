@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PyramidNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Rows:");
+        System.out.println("Number of Rows:");
         int n = scanner.nextInt();
         int rowCount = 1;
         for (int i = n; i >= 1; i--) {

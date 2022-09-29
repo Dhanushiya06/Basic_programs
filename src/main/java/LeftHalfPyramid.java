@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LeftHalfPyramid {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Rows: ");
+        System.out.println("Number of Rows: ");
         int n = scanner.nextInt();
         int i;
         for (i = 0; i <n; i++) {
