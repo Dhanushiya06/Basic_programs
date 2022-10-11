@@ -19,7 +19,7 @@ public class Prime {
                 }
             }
             if (flag == 0 && n != 1) {
-                System.out.print(n + " ");
+                System.out.print(n+ " ");
             } else {
                 flag = 0;
             }
